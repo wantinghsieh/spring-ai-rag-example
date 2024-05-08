@@ -25,7 +25,7 @@ public class SpringAIRAGExample {
         SpringApplication.run(SpringAIRAGExample.class, args);
     }
 
-    @Value("${app.vectorstore.path:/tmp/vectorstore.json}")
+    @Value("${app.vectorstore.path:/tmp/wthsieh/vectorstore.json}")
     private String vectorStorePath;
 
     @Value("${app.resource}")
